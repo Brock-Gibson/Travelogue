@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TravelViewController: UIViewController {
 
+    @IBOutlet weak var tripsTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

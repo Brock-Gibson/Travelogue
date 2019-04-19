@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4C2DC5226A50130001D940 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C2DC3226A50130001D940 /* Trip+CoreDataClass.swift */; };
+		5B4C2DC6226A50130001D940 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C2DC4226A50130001D940 /* Trip+CoreDataProperties.swift */; };
 		5BB6142E226A46D1008DF0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6142D226A46D1008DF0E9 /* AppDelegate.swift */; };
-		5BB61430226A46D1008DF0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6142F226A46D1008DF0E9 /* ViewController.swift */; };
+		5BB61430226A46D1008DF0E9 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6142F226A46D1008DF0E9 /* TravelViewController.swift */; };
 		5BB61433226A46D1008DF0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB61431226A46D1008DF0E9 /* Main.storyboard */; };
 		5BB61436226A46D1008DF0E9 /* Travelogue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BB61434226A46D1008DF0E9 /* Travelogue.xcdatamodeld */; };
 		5BB61438226A46D1008DF0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB61437226A46D1008DF0E9 /* Assets.xcassets */; };
 		5BB6143B226A46D1008DF0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB61439226A46D1008DF0E9 /* LaunchScreen.storyboard */; };
+		5BB61452226A4BEF008DF0E9 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6144E226A4BEF008DF0E9 /* Entry+CoreDataClass.swift */; };
+		5BB61453226A4BEF008DF0E9 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6144F226A4BEF008DF0E9 /* Entry+CoreDataProperties.swift */; };
+		5BEA875E226A554E0035CD12 /* NewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA875D226A554E0035CD12 /* NewTripViewController.swift */; };
+		5BEA8760226A5A3C0035CD12 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA875F226A5A3C0035CD12 /* EntryTableViewCell.swift */; };
+		5BEA8762226A5A8D0035CD12 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA8761226A5A8D0035CD12 /* EntryViewController.swift */; };
+		5BEA8764226A5A9F0035CD12 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA8763226A5A9F0035CD12 /* NewEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4C2DC3226A50130001D940 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5B4C2DC4226A50130001D940 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5BB6142A226A46D1008DF0E9 /* Travelogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB6142D226A46D1008DF0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BB6142F226A46D1008DF0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BB6142F226A46D1008DF0E9 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		5BB61432226A46D1008DF0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB61435226A46D1008DF0E9 /* Travelogue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travelogue.xcdatamodel; sourceTree = "<group>"; };
 		5BB61437226A46D1008DF0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB6143A226A46D1008DF0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB6143C226A46D1008DF0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB6144E226A4BEF008DF0E9 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entry+CoreDataClass.swift"; path = "../../Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5BB6144F226A4BEF008DF0E9 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entry+CoreDataProperties.swift"; path = "../../Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5BEA875D226A554E0035CD12 /* NewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripViewController.swift; sourceTree = "<group>"; };
+		5BEA875F226A5A3C0035CD12 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		5BEA8761226A5A8D0035CD12 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		5BEA8763226A5A9F0035CD12 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		5BB6142C226A46D1008DF0E9 /* Travelogue */ = {
 			isa = PBXGroup;
 			children = (
+				5BB61443226A4732008DF0E9 /* Model */,
 				5BB6142D226A46D1008DF0E9 /* AppDelegate.swift */,
-				5BB6142F226A46D1008DF0E9 /* ViewController.swift */,
 				5BB61431226A46D1008DF0E9 /* Main.storyboard */,
 				5BB61437226A46D1008DF0E9 /* Assets.xcassets */,
 				5BB61439226A46D1008DF0E9 /* LaunchScreen.storyboard */,
 				5BB6143C226A46D1008DF0E9 /* Info.plist */,
-				5BB61434226A46D1008DF0E9 /* Travelogue.xcdatamodeld */,
+				5BB6142F226A46D1008DF0E9 /* TravelViewController.swift */,
+				5BEA875D226A554E0035CD12 /* NewTripViewController.swift */,
+				5BEA875F226A5A3C0035CD12 /* EntryTableViewCell.swift */,
+				5BEA8761226A5A8D0035CD12 /* EntryViewController.swift */,
+				5BEA8763226A5A9F0035CD12 /* NewEntryViewController.swift */,
 			);
 			path = Travelogue;
+			sourceTree = "<group>";
+		};
+		5BB61443226A4732008DF0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BB61434226A46D1008DF0E9 /* Travelogue.xcdatamodeld */,
+				5B4C2DC3226A50130001D940 /* Trip+CoreDataClass.swift */,
+				5B4C2DC4226A50130001D940 /* Trip+CoreDataProperties.swift */,
+				5BB6144E226A4BEF008DF0E9 /* Entry+CoreDataClass.swift */,
+				5BB6144F226A4BEF008DF0E9 /* Entry+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB61430226A46D1008DF0E9 /* ViewController.swift in Sources */,
+				5B4C2DC6226A50130001D940 /* Trip+CoreDataProperties.swift in Sources */,
+				5BEA8762226A5A8D0035CD12 /* EntryViewController.swift in Sources */,
+				5BB61430226A46D1008DF0E9 /* TravelViewController.swift in Sources */,
+				5BB61453226A4BEF008DF0E9 /* Entry+CoreDataProperties.swift in Sources */,
+				5BEA8764226A5A9F0035CD12 /* NewEntryViewController.swift in Sources */,
 				5BB6142E226A46D1008DF0E9 /* AppDelegate.swift in Sources */,
+				5BB61452226A4BEF008DF0E9 /* Entry+CoreDataClass.swift in Sources */,
+				5B4C2DC5226A50130001D940 /* Trip+CoreDataClass.swift in Sources */,
+				5BEA8760226A5A3C0035CD12 /* EntryTableViewCell.swift in Sources */,
+				5BEA875E226A554E0035CD12 /* NewTripViewController.swift in Sources */,
 				5BB61436226A46D1008DF0E9 /* Travelogue.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
