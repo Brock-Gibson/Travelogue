@@ -12,7 +12,7 @@ import CoreData
 
 @objc(Trip)
 public class Trip: NSManagedObject {
-    var entry: [Entry]? {
+    var entries: [Entry]? {
         return self.rawEntry?.array as? [Entry]
     }
     

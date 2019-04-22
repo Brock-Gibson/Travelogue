@@ -13,7 +13,7 @@
         <!--Trips-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TravelViewController" customModule="Travelogue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TripViewController" customModule="Travelogue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,7 +179,7 @@
                                         <connections>
                                             <outlet property="entryImage" destination="2du-wF-Lsv" id="cPZ-BM-G9v"/>
                                             <outlet property="entryTitle" destination="dqB-2k-e5q" id="ZWh-ZU-vX8"/>
-                                            <segue destination="tDS-Da-MsN" kind="show" id="JYA-m6-HmK"/>
+                                            <segue destination="tDS-Da-MsN" kind="show" identifier="showEntry" id="JYA-m6-HmK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -195,7 +195,11 @@
                         <viewLayoutGuide key="safeArea" id="PXX-Fs-Yp6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Entries" id="g0K-SI-Bi6">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0RB-q1-Q4X"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0RB-q1-Q4X">
+                            <connections>
+                                <action selector="addEntry:" destination="DIw-K5-JxJ" id="dKP-qM-ewW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="entriesTableView" destination="C8O-k1-zi7" id="aDj-kT-4hm"/>
@@ -243,6 +247,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="titleChanged:" destination="tDS-Da-MsN" eventType="valueChanged" id="H2e-8I-KTY"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -276,12 +283,13 @@
                         <outlet property="datePicker" destination="KBY-DQ-kVu" id="qum-fd-N7t"/>
                         <outlet property="descriptionTextView" destination="Pc0-N3-Zr4" id="qD7-hu-IpN"/>
                         <outlet property="entryImage" destination="67Z-EE-GET" id="B4Y-Ld-S0J"/>
+                        <outlet property="titleBar" destination="zw3-HT-zDe" id="KhV-Os-Sny"/>
                         <outlet property="titleTextField" destination="US5-mi-rBf" id="P6Q-4x-vlg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60f-66-DCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2686.9565217391305" y="109.23913043478262"/>
+            <point key="canvasLocation" x="2546" y="113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ism-ty-A7a">
