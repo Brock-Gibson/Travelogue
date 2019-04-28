@@ -82,7 +82,9 @@ extension EntryViewController: UITableViewDataSource, UITableViewDelegate {
         
         if let cell = cell as? EntryTableViewCell {
             cell.entryTitle.text = entry.title
+            cell.entryImage.image = entry.image
         }
+        
         return cell
     }
     
