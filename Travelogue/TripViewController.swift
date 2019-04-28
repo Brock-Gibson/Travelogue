@@ -20,7 +20,6 @@ class TripViewController: UIViewController {
         
         tripsTableView.delegate = self
         tripsTableView.dataSource = self
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -134,7 +133,7 @@ extension TripViewController: UITableViewDataSource, UITableViewDelegate {
         dialogMessage.addAction(ok)
         dialogMessage.addAction(cancel)
         
-        // Present dialog message to user if there is documents
+        // Present dialog message to user if there is entriess
         if trip.entries?.count ?? 0 > 0 {
             self.present(dialogMessage, animated: true, completion: nil)
         } else {

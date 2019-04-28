@@ -46,7 +46,7 @@ class NewTripViewController: UIViewController {
                 self.navigationController?.popViewController(animated: true)
             }
             catch {
-                print("Could not save category!")
+                print("Could not save trip!")
             }
         }
     }
